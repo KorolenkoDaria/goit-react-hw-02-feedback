@@ -16,7 +16,7 @@ class App extends Component {
  
 
   onLeaveFeedback = (event) => {
-    const typeFeedback = event.target.innerText;
+    const typeFeedback = event.target.textContent;
     this.setState((prevState) => ({
       [typeFeedback]: prevState[typeFeedback] + 1
     }));
