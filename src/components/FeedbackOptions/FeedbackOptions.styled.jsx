@@ -27,6 +27,7 @@ export const Button = styled.button`
     font-family: sans-serif;
     font-size: 22px;
     cursor: pointer;
+    text-transform: capitalize;
 
     &:hover {
         border-color: inherit;
